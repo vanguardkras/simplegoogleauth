@@ -1,0 +1,20 @@
+{
+    "name": "vanguardkras/simplegoogleauth",
+    "description": "Small package to easily generate google auth link and retrieve users' information (email, name, etc).",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "google/apiclient": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Shaian",
+            "email": "championing@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Vanguardkras\\": "src/"}
+    }
+}
